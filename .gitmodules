@@ -1,0 +1,6 @@
+[submodule "dropmate-backend"]
+	path = dropmate-backend
+	url = https://github.com/kevinlin29/dropmate-backend.git
+[submodule "dropmate-frontend"]
+	path = dropmate-frontend
+	url = https://github.com/kevinlin29/dropmate-frontend.git
