@@ -78,11 +78,24 @@ Example event flows:
 
 Prerequisites: Node.js 18+, Docker, PostgreSQL 16, Redis 7, kubectl, doctl
 
+
 Backend local (overview):
 1. See `dropmate-backend` for service source and scripts.
 2. Run SQL migrations in `dropmate-backend/schema/` (01-08).
 3. Create `.env` with `DATABASE_URL`, `REDIS_URL`, Firebase credentials, etc.
 4. Start each service with `npm run dev` in its folder.
+
+Docker Compose (backend):
+If you prefer running the backend services locally via Docker Compose, a compose file is included at `dropmate-backend/docker-compose.yml` to spin up the backend stack (Postgres, Redis and backend services) for development or testing.
+
+Example (PowerShell):
+
+```powershell
+cd dropmate-backend
+docker compose up --build
+```
+
+Use `docker compose down` to stop and remove containers. For a fresh start, remove volumes with `docker compose down -v`.
 
 Frontend local (overview):
 1. See `dropmate-frontend` for the React app.
