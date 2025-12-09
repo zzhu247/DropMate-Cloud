@@ -25,7 +25,7 @@ Quick highlights:
 
 ---
 
-## Overview
+## Overview of DropMate
 
 DropMate separates responsibilities into specialized services so each can scale and be operated independently:
 
