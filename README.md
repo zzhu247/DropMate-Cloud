@@ -159,13 +159,3 @@ Driver | driverTest@dropmate.com | test123
 - `dropmate-backend/` — backend services, Dockerfiles, k8s manifests and database schema
 - `dropmate-frontend/` — React app, components, Firebase integration
 
----
-
-If you want, I can:
-
-- run a quick repo scan for TODOs and env samples
-- create a condensed developer quickstart focused on local dev
-- produce `ENV_TEMPLATE.md` with the environment variables required by each service
-
-Which of these would you like next?
-
